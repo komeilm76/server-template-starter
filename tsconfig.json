@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    // base options
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2016",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    // strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+
+    // if transpiling with typescript
+    "module": "CommonJS",
+    "sourceMap": true,
+    "lib": ["es2016"],
+
+    "noErrorTruncation": true, //show max data in intellisense
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", "lib"],
+  "include": ["src/**/*.ts", "tests/**/*.spec.ts"],
+  "files": ["src/index.ts"]
+}
+
+// {
+//   "compilerOptions": {
+//     "noErrorTruncation": true,
+//     "target": "es2016",
+//     "module": "commonjs",
+//     "resolveJsonModule": true,
+//     "esModuleInterop": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "strict": true,
+//     "skipLibCheck": true
+//   }
+// }
+
