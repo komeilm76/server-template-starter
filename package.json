@@ -1,6 +1,6 @@
 {
   "name": "server-template-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "stable configure for Server Application",
   "main": "./src/index.ts",
   "homepage": "https://github.com/komeilm76/server-template-starter",
