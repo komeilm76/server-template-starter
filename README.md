@@ -1,2 +1,2 @@
-# captain-america-server
+# server-template-starter
 Description:

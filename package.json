@@ -1,6 +1,6 @@
 {
-  "name": "captain-america-server",
-  "version": "0.0.1",
+  "name": "server-template-starter",
+  "version": "0.0.3",
   "description": "",
   "main": "./src/index.js",
   "typings": "build/main/index.d.ts",
