@@ -1,3 +1,6 @@
-import example from "./example";
+const start = ()=>{
 
-example.ServerTemplateStarter();
+}
+
+
+start()
