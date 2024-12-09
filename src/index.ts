@@ -1,6 +1,3 @@
-const start = ()=>{
+const start = () => {};
 
-}
-
-
-start()
+start();
